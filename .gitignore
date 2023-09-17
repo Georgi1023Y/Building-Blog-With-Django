@@ -1,0 +1,39 @@
+# Ignore virtual environment
+venv/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore migrations
+**/migrations/
+
+# Ignore static and media files (if using Django's built-in file handling)
+/static/
+/media/
+
+# Ignore secrets and configuration files
+.env
+settings_secret.py
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+.pyc
+__pycache__/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+
+# Ignore user-specific files
+.history
+
+# Ignore dependency management files (if using Pipenv or Poetry)
+Pipfile
+Pipfile.lock
+pyproject.toml   # For Poetry
+poetry.lock       # For Poetry
+
+# Ignore Django Debug Toolbar and Profiler files (if used)
+/__debug__/
+/profile_data/
